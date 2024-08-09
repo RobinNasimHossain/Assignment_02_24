@@ -1,0 +1,536 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background-color: black;
+}
+
+/* shared styles  */
+
+.display-flex {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.text-gray {
+  color: rgb(255, 255, 255);
+}
+
+.text-light-gray {
+  color: rgba(255, 255, 255, 0.5);
+}
+.text-light-gray {
+  text-decoration: none;
+}
+
+.btn-primary {
+  /* background-color: #ff900e; */
+  background-color: orangered;
+
+  color: white;
+  padding: 10px 15px;
+  font-weight: 600;
+  border-radius: 25px;
+  border: 0;
+}
+
+header {
+  max-width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
+
+#fitness {
+  /* color: #ff900e; */
+  color: orangered;
+  font-weight: 900;
+  font-size: 2.25rem;
+  margin-left: 140px;
+}
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.nav-links {
+  justify-content: space-around;
+  gap: 20px;
+  text-decoration: none;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 1px solid rgba(255, 255, 225, 0.1);
+  border-radius: 15px;
+  padding: 8px 8px;
+  border: none;
+}
+
+.span {
+  width: 52px;
+  height: 22;
+}
+
+.ham-burger-menu {
+  display: none;
+  margin-right: 60px;
+}
+
+/* navbar  section  styles ends here  */
+
+/* banner section  styles starts here  */
+
+.banner-content {
+  position: relative;
+  margin-left: 60px;
+}
+
+.banner-text {
+  width: 50%;
+  margin-left: 80px;
+}
+.banner-text > h4 {
+  line-height: 75px;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.banner-description {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.banner-image {
+  width: 50%;
+  margin-left: 28%;
+  top: 180px;
+}
+
+@font-face {
+  font-family: miama;
+  src: url(../font/Miama-Regular.ttf);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.custom-font {
+  font-family: miama;
+  font-weight: 400;
+  font-size: 4rem;
+}
+
+.download-now {
+  background-color: #070707;
+  color: white;
+  padding: 10px 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 1px solid white;
+  margin-left: 15px;
+}
+
+.number-of-videos {
+  position: absolute;
+  width: 190px;
+  height: 98px;
+  padding: 15px 10px;
+  border-radius: 16px;
+  font-size: 1.5rem;
+  background: rgba(48, 48, 48, 0.54);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  right: 28%;
+  bottom: 10%;
+}
+
+.workout-videos {
+  position: absolute;
+  width: 190px;
+  height: 98px;
+  padding: 15px 10px;
+  border-radius: 16px;
+  font-size: 1.5rem;
+  background: rgba(48, 48, 48, 0.54);
+  border: 0.5px solid rgba(255, 255, 255, 0.1);
+  right: 10%;
+  bottom: 55%;
+}
+
+.video-sign {
+  position: relative;
+  color: orangered;
+  margin-right: 5px;
+  border-radius: 50%;
+  top: 30%;
+}
+
+.vdo-number {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.vdo-tutorial {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(239, 237, 232, 0.65);
+  margin-left: 45px;
+}
+
+.total-number {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+.free-videos {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: rgba(239, 237, 232, 0.65);
+}
+
+/* header ends here  */
+
+/* change your habit style starts here  */
+
+.change-your-habits {
+  max-width: 80%;
+  height: 100%;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  margin-top: 15px;
+  /* margin-bottom: 25px; */
+}
+
+.habit-headline {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+.habit-para {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.habits-list {
+  text-align: center;
+}
+
+.habit-card {
+  margin-left: 20px;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.habit-card > img {
+  border-radius: 50%;
+}
+
+.habit-card > habit-title,
+habit-description {
+  text-align: center;
+  /* align-items: center; */
+}
+
+.habit-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+.habit-habit-description {
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+/* change your habit style end here  */
+
+/* Run extra mile  style starts here  */
+
+.extra-mile {
+  max-width: 80%;
+  height: 100%;
+  padding: 10px 15px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  background: rgb(34, 34, 34);
+
+  /* run extra mile  style end  here  */
+}
+
+.extra-mile-container {
+  border-radius: 15px;
+  justify-content: space-around;
+}
+
+.run-title {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.run-para {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.run-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  border-radius: 20px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 920px;
+  margin: 0 auto;
+}
+
+.skill-img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  height: 300px;
+  flex-wrap: wrap;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.skill-img.large {
+  grid-column: span 2; /* Make the second image span two columns */
+}
+.skill-content {
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+@media screen and (max-width: 576px) {
+  .image-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    flex-direction: column;
+    object-fit: cover;
+    overflow: hidden;
+  }
+}
+
+/* BMI CALCULATOR STYLE START HERE  */
+.bmi-calculator {
+  max-width: 100%;
+  display: flex;
+  margin-top: 50px;
+  background: rgb(34, 34, 34);
+  margin-bottom: 5px;
+}
+.table-title {
+  margin-left: 80px;
+}
+table {
+  width: 320px;
+  height: 220px;
+  /* padding: 20px; */
+  /* margin: 0 auto; */
+  border-collapse: collapse;
+  margin-left: 20px;
+  align-items: center;
+}
+
+td,
+th {
+  border: 1px solid rgb(119, 117, 117);
+  padding: 5px 10px;
+  font-size: 0.8rem;
+}
+
+.bmi-form {
+  margin-left: 100px;
+  width: 100%;
+}
+
+/* edited form style */
+.form-container {
+  padding: 20px 10px;
+  width: 50%;
+  height: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2 1fr);
+}
+
+.bmi-form {
+  width: 50%;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.bg-col {
+  width: 180px;
+  height: 30px;
+  border: none;
+  border-radius: 4px;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  text-align: left;
+}
+
+.input {
+  display: grid;
+  grid-template-rows: repeat(2 1fr);
+  border: none;
+  border-radius: 4px;
+  width: 180px;
+  height: 30px;
+  color: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.activity-factor {
+  width: 300px;
+}
+
+.text-area {
+  width: 100%;
+}
+.calculate {
+  margin-left: 15px;
+  cursor: pointer;
+}
+/* edited form style end */
+
+.bmi-cal-chart {
+  justify-content: center;
+  gap: 60px;
+}
+.form-title {
+  margin-left: 5px;
+}
+
+.form-para {
+  font-size: 12px;
+  margin-left: 5px;
+}
+.back-color {
+  color: rgba(255, 255, 225, 0.6);
+}
+#activity-factor {
+  grid-column: 1 / span 2;
+}
+
+/* meet our teams style starts here  */
+
+.meet-team-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  /* border: 1px solid red ; */
+  margin-top: 30px;
+}
+
+.meet-text {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1060px;
+  margin: 0 20px;
+  gap: 10px;
+  /* border: 1px solid blueviolet; */
+  background: rgb(33, 32, 31);
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.trainer-image {
+  width: 320px;
+  height: 260px;
+  border-radius: 15px;
+}
+
+.grid-item {
+  width: 250px;
+  position: relative;
+}
+.trainer-information {
+  position: absolute;
+  top: 195px;
+  left: 20px;
+}
+
+.name {
+  font-size: 1rem;
+}
+
+.Position {
+  font-size: 0.8rem;
+}
+
+/* footer section style start here  */
+
+footer {
+  width: 100%;
+  /* height: 120%; */
+  background: rgb(34, 34, 34);
+  margin-top: 30px;
+}
+.footer-title {
+  color: orangered;
+  font-weight: 800;
+  font-size: 3rem;
+  margin-top: 20px;
+  font-style: italic;
+}
+.footer-para {
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.footer-container {
+  margin: 0 auto;
+  justify-content: space-evenly;
+  padding: 10px 20px;
+}
+
+.copy-right {
+  text-align: center;
+
+  margin: 20px;
+}
+
+.horizontal-line {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}

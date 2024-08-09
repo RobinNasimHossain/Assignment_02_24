@@ -1,0 +1,148 @@
+/** @format */
+
+@media screen and (max-width: 576px) {
+  .nav-links {
+    display: none;
+  }
+  .ham-burger-menu {
+    display: block;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .button {
+    display: flex;
+  }
+
+  .download-now {
+    font-size: 0.6rem;
+    font-weight: 400;
+    border-radius: 25px;
+  }
+  .btn-primary {
+    font-size: 0.6rem;
+    font-weight: 400;
+    border-radius: 25px;
+  }
+
+  .banner-title {
+    font-size: 2.5rem;
+  }
+  .banner-description {
+    font-size: 1rem;
+  }
+  .banner-text > h4 {
+    line-height: 45px;
+  }
+
+  .custom-font {
+    font-family: miama;
+    font-weight: 400;
+    font-size: 2rem;
+  }
+  .banner-content,
+  .habit-container,
+  .extra-mile-container,
+  .bmi-cal-chart {
+    flex-direction: column;
+  }
+
+  .banner-image {
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+  }
+
+  .number-of-videos {
+    position: absolute;
+    width: 170px;
+    height: 88px;
+    border-radius: 16px;
+    font-size: 1rem;
+    right: 62%;
+    bottom: 22%;
+  }
+
+  .workout-videos {
+    position: absolute;
+    width: 170px;
+    height: 88px;
+    border-radius: 16px;
+    font-size: 1rem;
+    right: 18%;
+    bottom: 47%;
+  }
+
+  .extra-mile {
+    max-width: 80%;
+    align-items: center;
+  }
+
+  .run-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+
+  .run-para {
+    font-size: 1rem;
+  }
+
+  .join-now {
+    width: 350px;
+    height: 70px;
+    margin-bottom: 40px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 50px;
+  }
+
+  .extra-mile-container {
+    align-items: center;
+  }
+  .run-title,
+  .run-para {
+    margin-left: 40px;
+  }
+  .run-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* BMI PART RESPONSIVE STYLE */
+
+  .bmi-cal-chart {
+    /* align-items: center; */
+    justify-items: center;
+    align-items: center;
+  }
+  .form-container {
+    max-width: 100%;
+    display: flex;
+  }
+
+  /* meet our team responsive style */
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 90px;
+    width: 350px;
+    padding: 15px 15px;
+  }
+
+  .footer-container {
+    width: 100%;
+    display: grid;
+  }
+
+  .footer {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+
+  .horizontal-line {
+    width: 60%;
+  }
+}
